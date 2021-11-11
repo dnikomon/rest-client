@@ -1,9 +1,16 @@
 {
 	"name": "rest-client",
 	"version": "0.1.0",
+	"scripts": {
+		"start": "node client.js"
+	},
 	"devDependencies": {
 		"grunt": "~0.4.1",
 		"grunt-phpunit": "~0.3.1"
-		
+	},
+	"dependencies": {
+		"axios": "^0.24.0",
+		"crypto": "^1.0.1",
+		"md5": "^2.3.0"
 	}
 }

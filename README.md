@@ -48,6 +48,18 @@ Python
 
 	print(data)
 
+
+Javascript
+
+const { RestClient } = require('./javascript/RestClient')
+const user_id = <API_USER_ID>
+const secret_key = <API_KEY>
+const api_url = <API_URL>
+const api_realm = <_REALM>
+const api_version = <API_VERSION>
+const client = new RestClient(user_id, secret_key, api_url, api_realm, api_version)
+client.call('echoMessage', ['Hello World!'])
+
 Development
 ===========
 
